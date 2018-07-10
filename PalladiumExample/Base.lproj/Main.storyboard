@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PalladiumExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByE-jU-26M">
+                                <rect key="frame" x="154" y="60" width="66" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="57z-2i-Zwc"/>
+                                </constraints>
+                                <state key="normal" title="Authorize"/>
+                                <connections>
+                                    <action selector="tapAuthorize" destination="BYZ-38-t0r" eventType="touchUpInside" id="961-1w-8TR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOl-mk-wte">
+                                <rect key="frame" x="155" y="144" width="64" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aRf-4o-42e"/>
+                                </constraints>
+                                <state key="normal" title="Schedule"/>
+                                <connections>
+                                    <action selector="tapSchedule" destination="BYZ-38-t0r" eventType="touchUpInside" id="gsq-b2-vYG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8N-iw-0Sf">
+                                <rect key="frame" x="163" y="228" width="48" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Lcc-q6-09Y"/>
+                                </constraints>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="tapCancel" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYs-T8-QNa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ByE-jU-26M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="2B4-KJ-JzZ"/>
+                            <constraint firstItem="H8N-iw-0Sf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7yw-Zd-r9w"/>
+                            <constraint firstItem="yOl-mk-wte" firstAttribute="top" secondItem="ByE-jU-26M" secondAttribute="bottom" constant="40" id="Fd3-6A-93F"/>
+                            <constraint firstItem="ByE-jU-26M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nbc-sh-GEX"/>
+                            <constraint firstItem="H8N-iw-0Sf" firstAttribute="top" secondItem="yOl-mk-wte" secondAttribute="bottom" constant="40" id="uUc-Zu-52R"/>
+                            <constraint firstItem="yOl-mk-wte" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xQO-7h-Ffr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

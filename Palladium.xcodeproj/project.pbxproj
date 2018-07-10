@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38B338620F4E8E800232170 /* Palladium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38B337C20F4E8E800232170 /* Palladium.framework */; };
+		C38B338B20F4E8E800232170 /* PalladiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B338A20F4E8E800232170 /* PalladiumTests.swift */; };
+		C38B338D20F4E8E800232170 /* Palladium.h in Headers */ = {isa = PBXBuildFile; fileRef = C38B337F20F4E8E800232170 /* Palladium.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C38B339D20F4E8F900232170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B339C20F4E8F900232170 /* AppDelegate.swift */; };
+		C38B339F20F4E8F900232170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B339E20F4E8F900232170 /* ViewController.swift */; };
+		C38B33A220F4E8F900232170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38B33A020F4E8F900232170 /* Main.storyboard */; };
+		C38B33A420F4E8FA00232170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38B33A320F4E8FA00232170 /* Assets.xcassets */; };
+		C38B33A720F4E8FA00232170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38B33A520F4E8FA00232170 /* LaunchScreen.storyboard */; };
+		C38B33AD20F4E91500232170 /* Palladium.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B33AC20F4E91500232170 /* Palladium.swift */; };
+		C38B33AF20F4E93400232170 /* Palladium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38B337C20F4E8E800232170 /* Palladium.framework */; };
+		C38B33B320F4E9E400232170 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B33B220F4E9E400232170 /* Error.swift */; };
+		C38B33B620F4EB6300232170 /* MetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B33B520F4EB6300232170 /* MetaData.swift */; };
+		C38B33B820F4EC5400232170 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B33B720F4EC5400232170 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38B338720F4E8E800232170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38B337320F4E8E800232170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38B337B20F4E8E800232170;
+			remoteInfo = Palladium;
+		};
+		C38B33BA20F502A700232170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38B337320F4E8E800232170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38B339920F4E8F900232170;
+			remoteInfo = PalladiumExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38B337C20F4E8E800232170 /* Palladium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Palladium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B337F20F4E8E800232170 /* Palladium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Palladium.h; sourceTree = "<group>"; };
+		C38B338020F4E8E800232170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38B338520F4E8E800232170 /* PalladiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalladiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B338A20F4E8E800232170 /* PalladiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalladiumTests.swift; sourceTree = "<group>"; };
+		C38B338C20F4E8E800232170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38B339A20F4E8F900232170 /* PalladiumExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalladiumExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38B339C20F4E8F900232170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C38B339E20F4E8F900232170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38B33A120F4E8F900232170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38B33A320F4E8FA00232170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C38B33A620F4E8FA00232170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C38B33A820F4E8FA00232170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38B33AC20F4E91500232170 /* Palladium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palladium.swift; sourceTree = "<group>"; };
+		C38B33B220F4E9E400232170 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		C38B33B520F4EB6300232170 /* MetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaData.swift; sourceTree = "<group>"; };
+		C38B33B720F4EC5400232170 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38B337820F4E8E800232170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B338220F4E8E800232170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B338620F4E8E800232170 /* Palladium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B339720F4E8F900232170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B33AF20F4E93400232170 /* Palladium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38B337220F4E8E800232170 = {
+			isa = PBXGroup;
+			children = (
+				C38B337E20F4E8E800232170 /* Palladium */,
+				C38B338920F4E8E800232170 /* PalladiumTests */,
+				C38B339B20F4E8F900232170 /* PalladiumExample */,
+				C38B337D20F4E8E800232170 /* Products */,
+				C38B33AE20F4E93400232170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C38B337D20F4E8E800232170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38B337C20F4E8E800232170 /* Palladium.framework */,
+				C38B338520F4E8E800232170 /* PalladiumTests.xctest */,
+				C38B339A20F4E8F900232170 /* PalladiumExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38B337E20F4E8E800232170 /* Palladium */ = {
+			isa = PBXGroup;
+			children = (
+				C38B33B420F4EB4E00232170 /* Models */,
+				C38B33B120F4E9DB00232170 /* Errors */,
+				C38B33B020F4E9D700232170 /* Core */,
+				C38B337F20F4E8E800232170 /* Palladium.h */,
+				C38B338020F4E8E800232170 /* Info.plist */,
+			);
+			path = Palladium;
+			sourceTree = "<group>";
+		};
+		C38B338920F4E8E800232170 /* PalladiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38B338A20F4E8E800232170 /* PalladiumTests.swift */,
+				C38B338C20F4E8E800232170 /* Info.plist */,
+			);
+			path = PalladiumTests;
+			sourceTree = "<group>";
+		};
+		C38B339B20F4E8F900232170 /* PalladiumExample */ = {
+			isa = PBXGroup;
+			children = (
+				C38B339C20F4E8F900232170 /* AppDelegate.swift */,
+				C38B339E20F4E8F900232170 /* ViewController.swift */,
+				C38B33A020F4E8F900232170 /* Main.storyboard */,
+				C38B33A320F4E8FA00232170 /* Assets.xcassets */,
+				C38B33A520F4E8FA00232170 /* LaunchScreen.storyboard */,
+				C38B33A820F4E8FA00232170 /* Info.plist */,
+			);
+			path = PalladiumExample;
+			sourceTree = "<group>";
+		};
+		C38B33AE20F4E93400232170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38B33B020F4E9D700232170 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C38B33AC20F4E91500232170 /* Palladium.swift */,
+				C38B33B720F4EC5400232170 /* Constants.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C38B33B120F4E9DB00232170 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C38B33B220F4E9E400232170 /* Error.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C38B33B420F4EB4E00232170 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C38B33B520F4EB6300232170 /* MetaData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C38B337920F4E8E800232170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B338D20F4E8E800232170 /* Palladium.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C38B337B20F4E8E800232170 /* Palladium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B339020F4E8E800232170 /* Build configuration list for PBXNativeTarget "Palladium" */;
+			buildPhases = (
+				C38B337720F4E8E800232170 /* Sources */,
+				C38B337820F4E8E800232170 /* Frameworks */,
+				C38B337920F4E8E800232170 /* Headers */,
+				C38B337A20F4E8E800232170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palladium;
+			productName = Palladium;
+			productReference = C38B337C20F4E8E800232170 /* Palladium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C38B338420F4E8E800232170 /* PalladiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B339320F4E8E800232170 /* Build configuration list for PBXNativeTarget "PalladiumTests" */;
+			buildPhases = (
+				C38B338120F4E8E800232170 /* Sources */,
+				C38B338220F4E8E800232170 /* Frameworks */,
+				C38B338320F4E8E800232170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38B338820F4E8E800232170 /* PBXTargetDependency */,
+				C38B33BB20F502A700232170 /* PBXTargetDependency */,
+			);
+			name = PalladiumTests;
+			productName = PalladiumTests;
+			productReference = C38B338520F4E8E800232170 /* PalladiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C38B339920F4E8F900232170 /* PalladiumExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38B33A920F4E8FA00232170 /* Build configuration list for PBXNativeTarget "PalladiumExample" */;
+			buildPhases = (
+				C38B339620F4E8F900232170 /* Sources */,
+				C38B339720F4E8F900232170 /* Frameworks */,
+				C38B339820F4E8F900232170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalladiumExample;
+			productName = PalladiumExample;
+			productReference = C38B339A20F4E8F900232170 /* PalladiumExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38B337320F4E8E800232170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "E-sites";
+				TargetAttributes = {
+					C38B337B20F4E8E800232170 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					C38B338420F4E8E800232170 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C38B339920F4E8F900232170;
+					};
+					C38B339920F4E8F900232170 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = C38B337620F4E8E800232170 /* Build configuration list for PBXProject "Palladium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38B337220F4E8E800232170;
+			productRefGroup = C38B337D20F4E8E800232170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38B337B20F4E8E800232170 /* Palladium */,
+				C38B338420F4E8E800232170 /* PalladiumTests */,
+				C38B339920F4E8F900232170 /* PalladiumExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38B337A20F4E8E800232170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B338320F4E8E800232170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B339820F4E8F900232170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B33A720F4E8FA00232170 /* LaunchScreen.storyboard in Resources */,
+				C38B33A420F4E8FA00232170 /* Assets.xcassets in Resources */,
+				C38B33A220F4E8F900232170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38B337720F4E8E800232170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B33B620F4EB6300232170 /* MetaData.swift in Sources */,
+				C38B33B320F4E9E400232170 /* Error.swift in Sources */,
+				C38B33AD20F4E91500232170 /* Palladium.swift in Sources */,
+				C38B33B820F4EC5400232170 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B338120F4E8E800232170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B338B20F4E8E800232170 /* PalladiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38B339620F4E8F900232170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38B339F20F4E8F900232170 /* ViewController.swift in Sources */,
+				C38B339D20F4E8F900232170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38B338820F4E8E800232170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38B337B20F4E8E800232170 /* Palladium */;
+			targetProxy = C38B338720F4E8E800232170 /* PBXContainerItemProxy */;
+		};
+		C38B33BB20F502A700232170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38B339920F4E8F900232170 /* PalladiumExample */;
+			targetProxy = C38B33BA20F502A700232170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38B33A020F4E8F900232170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38B33A120F4E8F900232170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38B33A520F4E8FA00232170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38B33A620F4E8FA00232170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38B338E20F4E8E800232170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C38B338F20F4E8E800232170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C38B339120F4E8E800232170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Palladium/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.Palladium;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38B339220F4E8E800232170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Palladium/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.Palladium;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C38B339420F4E8E800232170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				INFOPLIST_FILE = PalladiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.PalladiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalladiumExample.app/PalladiumExample";
+			};
+			name = Debug;
+		};
+		C38B339520F4E8E800232170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				INFOPLIST_FILE = PalladiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.PalladiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PalladiumExample.app/PalladiumExample";
+			};
+			name = Release;
+		};
+		C38B33AA20F4E8FA00232170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				INFOPLIST_FILE = PalladiumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.PalladiumExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38B33AB20F4E8FA00232170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH7U9B5DS2;
+				INFOPLIST_FILE = PalladiumExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esites.PalladiumExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38B337620F4E8E800232170 /* Build configuration list for PBXProject "Palladium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B338E20F4E8E800232170 /* Debug */,
+				C38B338F20F4E8E800232170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B339020F4E8E800232170 /* Build configuration list for PBXNativeTarget "Palladium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B339120F4E8E800232170 /* Debug */,
+				C38B339220F4E8E800232170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B339320F4E8E800232170 /* Build configuration list for PBXNativeTarget "PalladiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B339420F4E8E800232170 /* Debug */,
+				C38B339520F4E8E800232170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38B33A920F4E8FA00232170 /* Build configuration list for PBXNativeTarget "PalladiumExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38B33AA20F4E8FA00232170 /* Debug */,
+				C38B33AB20F4E8FA00232170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38B337320F4E8E800232170 /* Project object */;
+}
