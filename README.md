@@ -1,5 +1,9 @@
 ![Palladium](Assets/logo.png)
 
+Palladium is part of the **[E-sites iOS Suite](https://github.com/e-sites/iOS-Suite)**.
+
+---
+
 A lightweight framework to schedule and cancel local notifications.
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-swift.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com)
