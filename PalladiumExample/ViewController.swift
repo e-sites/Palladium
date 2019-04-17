@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func tapSchedule() {
         let content = UNMutableNotificationContent()
-        content.body = "Dit is een notificatie"
+        content.body = "This is a notification"
         content.title = "\(Date())"
         var metaData = MetaData(id: "123")
         metaData.tags = [ "tag1", "tag2" ]

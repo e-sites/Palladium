@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = "Palladium"
-  s.version        = "1.0"
+  s.version        = "1.1"
   s.platform       = :ios
   s.ios.deployment_target = "10.0"
   s.summary        = "A lightweight framework to schedule and cancel local notifications."

@@ -9,8 +9,6 @@ A lightweight framework to schedule and cancel local notifications.
 [![forthebadge](http://forthebadge.com/images/badges/made-with-swift.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com)
 
 [![Platform](https://img.shields.io/cocoapods/p/Palladium.svg?style=flat)](http://cocoadocs.org/docsets/Palladium)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Palladium.svh)](http://cocoadocs.org/docsets/Palladium)
-[![Quality](https://apps.e-sites.nl/cocoapodsquality/Palladium/badge.svg?004)](https://cocoapods.org/pods/Palladium/quality)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Travis-ci](https://travis-ci.org/e-sites/Palladium.svg?branch=master&001)](https://travis-ci.org/e-sites/Palladium)
 
