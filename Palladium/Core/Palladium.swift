@@ -44,7 +44,7 @@ extension Palladium {
                 handler(Error.notAuthorized)
                 return
                 
-            case .notDetermined:
+            default:
                 break
             }
             
