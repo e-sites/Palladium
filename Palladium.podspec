@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files   = "Palladium/**/*.{h,swift}"
   s.requires_arc   = true
   s.frameworks    = 'Foundation', 'UserNotifications'
+  s.swift_versions = [ '5.0', '5.1' ]
 end
